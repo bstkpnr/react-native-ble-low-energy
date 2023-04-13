@@ -1,16 +1,18 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { NavigationContainer } from "@react-navigation/native";
+import {createStackNavigator} from '@react-navigation/stack';
+import {NavigationContainer} from '@react-navigation/native';
+import Home from './pages/Home/Home';
+import DeviceList from './pages/DeviceList';
 
+const Stack = createStackNavigator();
 
-
-const Stack=createNativeStackNavigator();
-
-function StackApp(){
-    return(
-        <Stack.Navigator>
-
-        </Stack.Navigator>
-    );
+function StackApp() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="DeviceList" component={DeviceList} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
-
 export default StackApp;
