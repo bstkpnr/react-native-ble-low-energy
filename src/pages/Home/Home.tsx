@@ -5,6 +5,7 @@ import Feather from 'react-native-vector-icons/Feather';
 import {MotiView} from 'moti';
 import {Easing} from 'react-native-reanimated';
 import styles from './Home.style';
+import Background from '../../components/Background/Background';
 
 type Props = {
   navigation: Navigation;
@@ -16,7 +17,8 @@ function Home({navigation}: Props) {
         navigation.navigate('DeviceList')
     }
   return (
-    <>
+    <View style={{flex:1,padding:20}}>
+        <Background />
       <View style={styles.container}>
         <View style={[styles.dot, styles.center]}>
           {[...Array(3).keys()].map(index => {
@@ -43,10 +45,10 @@ function Home({navigation}: Props) {
       </View>
       <View style={{bottom:100}}>
         <TouchableOpacity style={styles.touchContainer} onPress={handlePress}>
-          <Text style={{textAlign: 'center'}}>Hello</Text>
+          <Text style={styles.text}>WELCOME</Text>
         </TouchableOpacity>
       </View>
-    </>
+    </View>
   );
 }
 
