@@ -1,12 +1,8 @@
 import React from 'react';
-import { View} from 'react-native';
+import StackApp from './src';
 
 const App = (): JSX.Element => {
-  return (
-    <View>
-  
-    </View>
-  );
+  return (<StackApp />);
 };
 
 export default App;
