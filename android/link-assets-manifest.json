@@ -1,0 +1,137 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Kanit-Black.ttf",
+      "sha1": "7d7c545de2f02989d1f2a76849291b75f6e6b7e6"
+    },
+    {
+      "path": "assets/fonts/Kanit-BlackItalic.ttf",
+      "sha1": "57556af8831c92f61f91098bcce27f60002c6192"
+    },
+    {
+      "path": "assets/fonts/Kanit-Bold.ttf",
+      "sha1": "4d376a5447efe2ece1e3e39ff0fc2bbf3af0e5f8"
+    },
+    {
+      "path": "assets/fonts/Kanit-BoldItalic.ttf",
+      "sha1": "a515d96e8b0ae666c180ff853f07282647cce78b"
+    },
+    {
+      "path": "assets/fonts/Kanit-ExtraBold.ttf",
+      "sha1": "e880d5f10a706034ca71f17c6534a3e76e1319ad"
+    },
+    {
+      "path": "assets/fonts/Kanit-ExtraBoldItalic.ttf",
+      "sha1": "1505f04535bfb9ecbab2452a192d32f431a057fd"
+    },
+    {
+      "path": "assets/fonts/Kanit-ExtraLight.ttf",
+      "sha1": "c948dac66c673a313a9b43294e35b73a14a0cf69"
+    },
+    {
+      "path": "assets/fonts/Kanit-ExtraLightItalic.ttf",
+      "sha1": "81e72743d10d5bfbb8e6c10df63473c59f461851"
+    },
+    {
+      "path": "assets/fonts/Kanit-Italic.ttf",
+      "sha1": "d4b45fa70b71d7d3bc31ec3c09341672c660db28"
+    },
+    {
+      "path": "assets/fonts/Kanit-Light.ttf",
+      "sha1": "5f73684474721ddfc98168f5b8a634d7552e89d4"
+    },
+    {
+      "path": "assets/fonts/Kanit-LightItalic.ttf",
+      "sha1": "bfa800d600db0d72fda285fceaa2e0b5234f2faf"
+    },
+    {
+      "path": "assets/fonts/Kanit-Medium.ttf",
+      "sha1": "61ac6e618ea64ca7f4ae2444194e0bad4c72c8f9"
+    },
+    {
+      "path": "assets/fonts/Kanit-MediumItalic.ttf",
+      "sha1": "d4efe4ef0132a00a569ddcfb7bc292062fcd96ba"
+    },
+    {
+      "path": "assets/fonts/Kanit-Regular.ttf",
+      "sha1": "4d7b70e9717ae0adecc332fac9af7457063886a4"
+    },
+    {
+      "path": "assets/fonts/Kanit-SemiBold.ttf",
+      "sha1": "9715fb086966063735f84aa37f3e2dcd654ce999"
+    },
+    {
+      "path": "assets/fonts/Kanit-SemiBoldItalic.ttf",
+      "sha1": "ab47c69150c1552dc01230b7acd9423e2c3e6c47"
+    },
+    {
+      "path": "assets/fonts/Kanit-Thin.ttf",
+      "sha1": "c01a1c4d8a0cad6b8b4988b03c9c8f3dfa19242c"
+    },
+    {
+      "path": "assets/fonts/Kanit-ThinItalic.ttf",
+      "sha1": "684a356c889f48a71ca6220d2e4d86fd884f917a"
+    },
+    {
+      "path": "assets/fonts/LICENSE.txt",
+      "sha1": "47b573e3824cd5e02a1a3ae99e2735b49e0256e4"
+    },
+    {
+      "path": "assets/fonts/Lobster-Regular.ttf",
+      "sha1": "120c751cd7a77174037c2409ab883ef7efc5edbb"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Regular.ttf",
+      "sha1": "6af0b309f2f2af25bfd0f901ed24bd0527c2cbf4"
+    },
+    {
+      "path": "assets/fonts/Roboto-Black.ttf",
+      "sha1": "3f8e401d808f6ce84b542266726514ac8be73171"
+    },
+    {
+      "path": "assets/fonts/Roboto-BlackItalic.ttf",
+      "sha1": "03d6e3747d862385dbe48e8296385b9236101a62"
+    },
+    {
+      "path": "assets/fonts/Roboto-Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+    },
+    {
+      "path": "assets/fonts/Roboto-BoldItalic.ttf",
+      "sha1": "2f10ad9e8cab0880182705c4e0fbaeabae706e64"
+    },
+    {
+      "path": "assets/fonts/Roboto-Italic.ttf",
+      "sha1": "65f3f6a7e1bd2fa6f2df35e4b07775d7f1dde4f0"
+    },
+    {
+      "path": "assets/fonts/Roboto-Light.ttf",
+      "sha1": "18788c5d630fa695f9283f6393bfa541b2031508"
+    },
+    {
+      "path": "assets/fonts/Roboto-LightItalic.ttf",
+      "sha1": "6e01f9df9449565697032b002706a94b51862bbe"
+    },
+    {
+      "path": "assets/fonts/Roboto-Medium.ttf",
+      "sha1": "3c6a09fcc6a454924c81af7dff94fc6d399ed79b"
+    },
+    {
+      "path": "assets/fonts/Roboto-MediumItalic.ttf",
+      "sha1": "b3aa2d8f16d5a331fdced82f213a052b204eaca0"
+    },
+    {
+      "path": "assets/fonts/Roboto-Regular.ttf",
+      "sha1": "56c5c0d38bde4c1f1549dda43db37b09c608aad3"
+    },
+    {
+      "path": "assets/fonts/Roboto-Thin.ttf",
+      "sha1": "58c733e22bceeaf9609ce578eca92ac303c6d92f"
+    },
+    {
+      "path": "assets/fonts/Roboto-ThinItalic.ttf",
+      "sha1": "cc79d5a23bd0ec08b1d99f5390bf33cacc3082f4"
+    }
+  ]
+}
