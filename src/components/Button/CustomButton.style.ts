@@ -4,19 +4,23 @@ const deviceSize=Dimensions.get('window');
 
 export default StyleSheet.create({
     buttonText:{
-        color:Colors.defaultWhiteColor,
-        fontSize:12,
-        textAlign:'center'
-
+        color: '#fff',
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+    textAlign:'center'
     },
     buttonContainer:{
-        backgroundColor:Colors.defaultBlueColor,
         height:48,
         width:338,
-        borderRadius:10,
         flexDirection:'row',
         alignSelf:'center',
-        alignItems:'center'
+        alignItems:'center',
+        backgroundColor: '#FF6347', // arkaplan rengi
+        paddingVertical: 12, // yatay boşluk
+        paddingHorizontal: 24, // dikey boşluk
+        borderRadius: 25, // kenar yarıçapı
+        justifyContent: 'center',
     }
    
 })
