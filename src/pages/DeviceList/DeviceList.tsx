@@ -71,24 +71,42 @@ const DeviceList = (): JSX.Element => {
       console.log('Bluetooth is not powered on');
       return false;
     }
+    if (!isEnabled) {
+      console.log('Bluetooth is not enabled');
+      return false;
+    }
     const permission = await requestPermisson();
-    if (isEnabled && permission) {
-      manager.startDeviceScan(null, null, async (error, device) => {
-        if (error) {
-          console.log(error);
-          return;
-        }
-        if (device) {
-          console.log(`${device.name} (${device.id})`);
-          const newScanDevices = {...scanDevices};
-          newScanDevices[device.id] = device;
-          await setScanDevices(newScanDevices);
-        }
-      });
+    if (permission) {
+      const scanInterval = setInterval(() => {
+        manager.stopDeviceScan();
+        setScanDevices({});
+        manager.startDeviceScan(null, null, async (error, device) => {
+          if (error) {
+            console.log(error);
+            return;
+          }
+          if (device) {
+            console.log(`${device.name} (${device.id})`);
+            const newScanDevices = {...scanDevices};
+            newScanDevices[device.id] = device;
+            await setScanDevices(newScanDevices);
+          }
+        });
+      }, 5000);
+      return () => clearInterval(scanInterval);
     }
     return true;
   };
-
+  
+  
+    
+    useEffect(() => {
+      if (!isEnabled) {
+        manager.stopDeviceScan();
+        setScanDevices({});
+      }
+    }, [isEnabled]);
+    
   const renderItem = ({item}: any) => {
     return (
       <Device
@@ -109,7 +127,7 @@ style={{ flex: 1 }}
     <SwitchButton
   label={isEnabled ? 'ON' : 'OFF'}
   value={isEnabled}
-  onValueChange={(value) => setIsEnabled(value)}
+  onValueChange={onBluetooth}
   disabled={isLoading}
   labelStyle={{ color: isEnabled ? '#FF6347' : '#C2CAD0' }}/>
 <CustomButton
