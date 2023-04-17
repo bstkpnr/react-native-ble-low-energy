@@ -24,4 +24,6 @@
 <img src="./assets/img/img4.jpg" width='200px'>
 </div>
 
+### 👋👋👋
+# https://medium.com/@bstkpnr/react-native-ile-bluetooth-ba%C4%9Flant%C4%B1s%C4%B1-nas%C4%B1l-kurulur-part-1-d200b89b6bf
 
